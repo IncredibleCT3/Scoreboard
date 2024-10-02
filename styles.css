@@ -1,0 +1,78 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url("font/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    background-image: url("images/tipoff.jpg");
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: CursedTimer;
+    color: #F94F6D;
+}
+
+button {
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    text-align: center;
+    background: none;
+    color: #9AABD8;
+    font-family: CursedTimer;
+}
+
+#reset {
+    width: 60px;
+}
+
+#reset-div {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    font-size: 90px;
+    position: relative;
+    top: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 385px;
+    width: 575px;
+    background-color: #1B244A;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px black;
+}
+
+.scoreboard {
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.score-increase {
+    display: flex;
+    justify-content: space-between;
+}
